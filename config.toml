@@ -3,7 +3,7 @@ languageCode = "de-de"
 defaultContentLanguage = "de"
 title = "yourmet"
 theme = "hermit"
-# enableGitInfo = true
+enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 hasCJKLanguage = false  # If there're Chinese/Japanese/Korean Languages in the content, enable this.
@@ -40,24 +40,25 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/"
+    url = "https://twitter.com/tstoeckigt"
+
 
   [[params.social]]
     name = "instagram"
     url = "https://instagram.com/"
 
   [[params.social]]
-    name = "github"
-    url = "https://github.com/"
+    name = "email"
+    url = "mailto:timo.traulsen@posteo.de"
 
 [menu]
 
   [[menu.main]]
-    name = "Posts"
+    name = "Nachrichten"
     url = "/posts/"
     weight = 10
 
   [[menu.main]]
-    name = "About"
-    url = "/about-hugo/"
+    name = "Über yourmet"
+    url = "/about-yourmet/"
     weight = 20
