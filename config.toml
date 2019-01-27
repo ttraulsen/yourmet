@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "http://ttraulsen-yourmet.s3-website.eu-central-1.amazonaws.com/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
 title = "yourmet"
