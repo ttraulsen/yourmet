@@ -1,0 +1,48 @@
+:root {
+  --bg-color: #000000;
+  --text-color: #e4d6a7;
+  --headline-color: #cc4f3a; 
+}
+
+html {
+	background: #000000;
+}
+
+h1 {
+	color: var(--headline-color);
+}
+
+::-webkit-scrollbar-thumb {
+	&:hover {
+		background: var(--text-color);
+	}
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	color: var(--text-color);
+}
+
+a {
+	color: var(--text-color);
+	&:hover: #f1ead3;
+}
+
+.banner-404 {
+	.btn-404 {
+		a {
+			border: 2px solid var(--text-color);
+
+			&:hover {
+				border-color: #f1ead3;
+			}
+		}
+	}
+}
+
+#site-header {
+	background-color: #393529;
+}
